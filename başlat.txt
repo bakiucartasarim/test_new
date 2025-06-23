@@ -1,0 +1,33 @@
+  ./start_futures.sh
+
+● ✅ Futures Tracker Zaten Çalışıyor!
+
+  - Process ID: 10302
+  - Aralık: 15 dakika
+  - Status: Aktif ✅
+
+  🔧 Yönetim Komutları:
+
+  Durdurma:
+  pkill -f futures_tracker.py
+
+  Yeni aralıkla başlatma:
+  # Önce durdur
+  pkill -f futures_tracker.py
+
+  # Yeni aralıkla başlat
+  cd futures_takip
+  python3 futures_tracker.py  # 15 dakika
+
+  Farklı aralık:
+  cd futures_takip
+  ./start_futures.sh
+  # Menüden istediğiniz aralığı seçin
+
+  📱 Şu Anda Aktif:
+
+  - 📊 Futures Reports: Her 15 dakikada
+  - ⚡ DCA-4 Signals: Sinyal beklemede
+  - 🎯 Her ikisi de Telegram'a düşüyor
+
+  Futures tracker'ınız zaten çalışıyor! 🚀

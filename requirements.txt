@@ -1,0 +1,4 @@
+ccxt==4.1.64
+requests==2.31.0
+aiohttp==3.9.1
+asyncio
